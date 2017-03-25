@@ -1,0 +1,191 @@
+﻿#navbar {
+			background-color: transparent;
+			border-bottom: none;
+			font-family: 'Open Sans Condensed', sans-serif;	
+			color: #ffffff;
+			margin-right: 0px;
+			background-color: #496281;
+		    opacity: .7;
+		    padding-right: 50px;
+		    height: 100px;
+		    color: #cccccc;
+
+}
+
+li {		font-family: 'Quicksand', sans-serif;
+			margin: 10px;
+			padding-top: 20px;
+			font-size: 24px;
+			cursor: pointer;
+
+}
+#home-link { 
+			color: #cccccc;
+
+}
+#about-link {
+			color: #cccccc;
+}
+li: active  {
+			color: #b5b5b5;
+}
+
+.background {
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+
+}
+
+.backgroundImage{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+	
+	}
+
+.search {
+			position: relative;
+			margin: auto;
+			top:220px;
+			width: 600px;
+			height: 250px;
+			border-radius: 10px;
+			padding-left: 60px;
+			padding-right: 60px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			background-color: #ffffff;
+			font-size: 30px;
+			font-family: 'Questrial', sans-serif;
+			opacity: .8;
+			text-align: center;
+
+
+}
+#locationdata {
+				height: 50px;
+				opacity: 1;
+				text-align: center;
+				font-size: 18px;
+}
+
+#email{
+				height: 40px;
+				opacity: 1;
+				text-align: center;
+				font-size: 18px;
+				margin-top: -40px;
+}
+
+#errorBox{
+	position:relative;
+	top:10%;
+}
+
+#search {
+				background-color: #000000;
+				color: #ffffff;
+				font-size: 18px;
+				text-align: center;
+				font-family: 'Nixie One', cursive;
+				display: block;
+				margin: auto;
+				border: none;
+				border-radius: 5px;
+				padding: 10px;
+			}
+
+#discover{
+				background-color: #000000;
+				color: #ffffff;
+				font-size: 25px;
+				font-family: 'Nixie One', cursive;
+				margin: #000000;
+				border: none;
+				border-radius: 5px;
+				padding: 10px;
+}
+
+#uvIndex, #pollution, #temperature{
+	display: inline;
+	
+}
+
+#information{
+	margin-top: 200px;
+	font-size: 40px;
+
+}
+
+#location{
+	margin-bottom: 20px;
+	color: #ffffff;
+	font-family: 'Arimo', sans-serif;
+	font-size: 35px;
+}
+
+#city{
+	background-color: #000000;
+	opacity:0.7;
+	border-radius: 10px;
+	padding: 10px;
+	color: #ffffff;
+	font-family: 'Muli', sans-serif;
+	font-size: 35px;
+}
+
+#previousText{
+	
+	color: #ffffff;
+	margin-bottom: 20px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+h2 {
+			font-family: 'Quicksand', sans-serif;
+		}
+#name{
+    font-family: 'Questrial', sans-serif;
+    font-size: 40px;
+    
+}
+
+#tempInfo{
+    font-size: 90px;
+    z-index: 100;
+    color: #ffffff ;
+}
+
+#uvInfo{
+    font-size: 90px;
+    z-index: 100;
+    color: #ffffff ;
+}
+
+#discover{
+	margin: 8px;
+}

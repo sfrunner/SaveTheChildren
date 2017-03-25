@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>airGeek</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Arimo|Muli|Oxygen|Quicksand" rel="stylesheet">
+
+ <link href="https://fonts.googleapis.com/css?family=Dosis|Muli|Nixie+One|Open+Sans+Condensed:300|Poiret+One|Questrial|Quicksand" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body id="mycontroller" ng-app="myApp" ng-controller="myCtrl">
+
+<div class="container">
+<div id="background"></div>
+<video class="background"  preload="auto" autoplay="" poster="" loop="" muted=""><source src="assets/background.mov" type="video/mp4"></video>
+
+  <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+    <a class="navbar-brand" href=""></a>
+      <img alt="Brand" src="assets/logo.png">
+      <span id="name">airGeek</span>
+    <ul class="links nav navbar-nav navbar-right" id="links">
+        <li id="home"><a href="./project.html" id="home-link">Home</a></li>
+        <li><a href="./about.html" id="about-link">About Us</a></li>
+       
+    </ul> 
+  </nav>
+
+  
+      
+  
+    
+  <div class="search">
+  <form>
+  <div class="form-group">
+    <label for="locationdata">Enter a Location to Begin</label>
+    <input type="text" class="form-control" id="locationdata" placeholder="City" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email"></label>
+    <input type="text" class="form-control" id="email" placeholder="Enter your email" required>
+  </div>
+
+  <button type="search" id="search" ng-click="myFunction()">Search</button>
+
+
+  </form>
+  </div>
+
+  
+    
+  
+  <div id="information">
+  <div id="location" class="row">
+    <h2 class>Hello, welcome to <span id="city"></span></h2>
+  </div>
+
+  <div class="row">
+
+    <div class="col-xs-4">
+      <img id="uvIndex" src="assets/sun.png">
+    </div>
+    <div class="col-xs-4">
+      <img id="pollution" src="assets/pollution.png">
+    </div>
+    <div class="col-xs-4">
+      <img id="temperature" src="assets/temp.png">
+    </div>
+    
+  </div>
+
+  <div class="row">
+    <div class="col-xs-4">
+      <span id="uvInfo"></span>
+    </div>
+    <div class="col-xs-4">
+      <span id="widget"></span>
+    </div>
+    <div class="col-xs-4">
+      <span id="tempInfo"></span>
+    </div>
+  </div>
+
+  <div  class="row">
+ 	 <div id="previous">
+  		<h2 id="previousText">Want to check out previous searches?</h2>
+  	</div>
+  </div>
+  
+  </div> 
+
+  
+<script src="https://code.jquery.com/jquery-3.2.0.js" integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ="crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+<script src="https://code.angularjs.org/1.6.3/angular.js"></script>
+<script src="./project.js" type="text/javascript"></script>
+<script src="./Firebase.js" type="text/javascript"></script>
+<script  type="text/javascript"  charset="utf-8">  
+    (function(w,d,t,f){  w[f]=w[f]||function(c,k,n){s=w[f],k=s['k']=(s['k']||(k?('&k='+k):''));s['c']=  
+    c=(c  instanceof  Array)?c:[c];s['n']=n=n||0;L=d.createElement(t),e=d.getElementsByTagName(t)[0];  
+    L.async=1;L.src='http://feed.aqicn.org/feed/'+(c[n].city)+'/'+(c[n].lang||'')+'/feed.v1.js?n='+n+k;  
+    e.parentNode.insertBefore(L,e);  };  })(  window,document,'script','_aqiFeed'  );    
+</script>
+
+</body>
+
+</html>
+
