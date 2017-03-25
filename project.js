@@ -138,7 +138,7 @@ app.controller("myCtrl", function($scope,$http){
   										city: cityInput.replace(" ","").toLowerCase()
   									});  
 						
-									var weatherURL = "https://api.openweathermap.org/data/2.5/weather?lat="+response.data.results[0].geometry.location.lat+"&lon="+response.data.results[0].geometry.location.lng+"&appid=2e0b1f9b2b01a0eac68955d495e769b7";
+									var weatherURL = "http://api.openweathermap.org/data/2.5/weather?lat="+response.data.results[0].geometry.location.lat+"&lon="+response.data.results[0].geometry.location.lng+"&appid=2e0b1f9b2b01a0eac68955d495e769b7";
 									$http({
 										method: "GET",
 										url: weatherURL
@@ -153,7 +153,7 @@ app.controller("myCtrl", function($scope,$http){
 									var theLong = (response.data.results[0].geometry.location.lng).toFixed(0);
 									console.log(theLat);
 									console.log(theLong);
-									var uvURL = "https://api.openweathermap.org/v3/uvi/"+theLat+","+theLong+"/current.json?appid=aae9e9af552036e9f4bea0d156fa613d";
+									var uvURL = "http://api.openweathermap.org/v3/uvi/"+theLat+","+theLong+"/current.json?appid=aae9e9af552036e9f4bea0d156fa613d";
 									console.log(uvURL);
 									$http({
 										method: "GET",
