@@ -9,7 +9,6 @@
 		    padding-right: 50px;
 		    height: 100px;
 		    color: #cccccc;
-
 }
 
 li {		font-family: 'Quicksand', sans-serif;
@@ -23,14 +22,15 @@ li {		font-family: 'Quicksand', sans-serif;
 			color: #cccccc;
 
 }
-#about-link {
-			color: #cccccc;
-}
-li: active  {
-			color: #b5b5b5;
+#about-link{
+	color: #cccccc;
 }
 
-.background {
+li: active{
+	color: #b5b5b5;
+}
+
+.background{
    position: fixed;
     top: 50%;
     left: 50%;
@@ -44,8 +44,7 @@ li: active  {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-
+    background-size: cover;
 }
 
 .backgroundImage{
@@ -63,41 +62,39 @@ li: active  {
     transform: translateX(-50%) translateY(-50%);
     background: url(polina.jpg) no-repeat;
     background-size: cover; 
-	
-	}
-
-.search {
-			position: relative;
-			margin: auto;
-			top:220px;
-			width: 600px;
-			height: 250px;
-			border-radius: 10px;
-			padding-left: 60px;
-			padding-right: 60px;
-			padding-top: 20px;
-			padding-bottom: 20px;
-			background-color: #ffffff;
-			font-size: 30px;
-			font-family: 'Questrial', sans-serif;
-			opacity: .8;
-			text-align: center;
-
-
 }
-#locationdata {
-				height: 50px;
-				opacity: 1;
-				text-align: center;
-				font-size: 18px;
+
+.search{
+	position: relative;
+	margin: auto;
+	top:220px;
+	width: 600px;
+	height: 250px;
+	border-radius: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+	font-size: 30px;
+	font-family: 'Questrial', sans-serif;
+	opacity: .8;
+	text-align: center;
+}
+
+#locationdata{
+	height: 50px;
+	opacity: 1;
+	text-align: center;
+	font-size: 18px;
 }
 
 #email{
-				height: 40px;
-				opacity: 1;
-				text-align: center;
-				font-size: 18px;
-				margin-top: -40px;
+	height: 40px;
+	opacity: 1;
+	text-align: center;
+	font-size: 18px;
+	margin-top: -40px;
 }
 
 #errorBox{
@@ -105,39 +102,37 @@ li: active  {
 	top:10%;
 }
 
-#search {
-				background-color: #000000;
-				color: #ffffff;
-				font-size: 18px;
-				text-align: center;
-				font-family: 'Nixie One', cursive;
-				display: block;
-				margin: auto;
-				border: none;
-				border-radius: 5px;
-				padding: 10px;
-			}
+#search{
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Nixie One', cursive;
+	display: block;
+	margin: auto;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+}
 
 #discover{
-				background-color: #000000;
-				color: #ffffff;
-				font-size: 25px;
-				font-family: 'Nixie One', cursive;
-				margin: #000000;
-				border: none;
-				border-radius: 5px;
-				padding: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'Nixie One', cursive;
+	margin: #000000;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
 }
 
 #uvIndex, #pollution, #temperature{
 	display: inline;
-	
 }
 
 #information{
 	margin-top: 200px;
 	font-size: 40px;
-
 }
 
 #location{
@@ -158,7 +153,6 @@ li: active  {
 }
 
 #previousText{
-	
 	color: #ffffff;
 	margin-bottom: 20px;
 	font-family: 'Quicksand', sans-serif;
@@ -166,12 +160,12 @@ li: active  {
 
 
 h2 {
-			font-family: 'Quicksand', sans-serif;
-		}
+	font-family: 'Quicksand', sans-serif;
+}
+
 #name{
     font-family: 'Questrial', sans-serif;
     font-size: 40px;
-    
 }
 
 #tempInfo{

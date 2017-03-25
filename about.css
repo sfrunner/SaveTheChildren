@@ -22,29 +22,30 @@ body{
 	color:#ffffff;
 }
 
-#navbar {
-			background-color: transparent;
-			border-bottom: none;
-			font-family: 'Open Sans Condensed', sans-serif;	
-			color: #cccccc;
-			margin-right: 0px;
-		    padding-right: 50px;
-		    height: 100px;
-
+#navbar{
+	background-color: transparent;
+	border-bottom: none;
+	font-family: 'Open Sans Condensed', sans-serif;	
+	color: #cccccc;
+	margin-right: 0px;
+	padding-right: 50px;
+	height: 100px;
 }
-li {		font-family: 'Quicksand', sans-serif;
-			margin: 10px;
-			padding-top: 20px;
-			font-size: 24px;
-			cursor: pointer;
 
-
+li {		
+	font-family: 'Quicksand', sans-serif;
+	margin: 10px;
+	padding-top: 20px;
+	font-size: 24px;
+	cursor: pointer;
 }
-h2 {
-			font-family: 'Quicksand', sans-serif;
-		}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+}
+
 #name{
-		    font-family: 'Questrial', sans-serif;
-		    font-size: 40px;
-		}
+	font-family: 'Questrial', sans-serif;
+	font-size: 40px;
+}
     
